@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">  
+<properties>  
+    <comment>IK Analyzer 扩展配置</comment>
+    <!-- 配置自己的扩展字典 -->
+     <entry key="ext_dict">extword.dic</entry> 
+     <!-- 配置需要过滤掉的词  -->
+    <entry key="ext_stopwords">filterword.dic;filterWord.txt</entry> 
+</properties>

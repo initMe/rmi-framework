@@ -1,0 +1,29 @@
+<div style="margin:0 auto;width:400px;margin-top:30px;">
+<h2>请用微信扫码支付</h2>
+<div id="code" style="margin-top:40px;"></div>
+</div>
+
+<script>
+var code_url = '$!{code_url}';
+if (code_url != ''){	
+		$("#code").qrcode({
+			render: "table",
+			width: 150,
+			height:150,
+			text: code_url
+		});
+}
+
+//ajax后台监视，如果付款成功，则跳转到商户
+var out_trade_no = '$!{out_trade_no}';
+$.ajax({
+	url : appServer + "/pay/wechat/payMonitor.do",
+	type : "GET",
+	data : {out_trade_no:out_trade_no},
+	success : function(data){
+		if (data != '' && data != null){
+			window.location.href = data;
+		}
+	}
+})
+</script>

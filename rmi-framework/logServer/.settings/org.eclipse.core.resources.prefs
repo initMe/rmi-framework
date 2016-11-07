@@ -1,0 +1,12 @@
+#Thu Sep 24 19:54:15 CST 2015
+eclipse.preferences.version=1
+encoding//conf/init.log.properties=UTF-8
+encoding//conf/log.linux.properties=UTF-8
+encoding//conf/log.windows.properties=UTF-8
+encoding//src/com/bean/Address.java=UTF-8
+encoding//src/com/main/LogRmiMain.java=UTF-8
+encoding//src/com/manager/CursorPreparer.java=UTF-8
+encoding//src/com/manager/MongoManager.java=UTF-8
+encoding//src/com/manager/MongoServer.java=UTF-8
+encoding//src/com/util/MongoUtils.java=UTF-8
+encoding/<project>=UTF-8

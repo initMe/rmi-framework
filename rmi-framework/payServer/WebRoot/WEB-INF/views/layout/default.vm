@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <title>支付测试平台</title>
+    #parse( 'screen/common/htmlheader.vm' )
+</head>
+<body >
+    
+    <body>
+		<div class="wrap">
+			$screen_content
+		</div>
+	</body>	
+
+</body>

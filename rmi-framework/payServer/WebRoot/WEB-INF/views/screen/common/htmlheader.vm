@@ -1,0 +1,9 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<!--js-->
+<script src="${rc.contextPath}/scripts/jquery-1.12.3.min.js"></script>
+<script src="${rc.contextPath}/scripts/jquery.qrcode.min.js"></script>
+
+<script>
+    var appServer = "$!{rc.contextPath}";
+</script>
